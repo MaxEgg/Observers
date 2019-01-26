@@ -1,0 +1,31 @@
+{
+  "name": "@eggerdingsoftware/observers",
+  "version": "1.0.0",
+  "description": "Collection of singleton observers for browser events",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MaxEgg/Observers.git"
+  },
+  "keywords": [
+    "Observers",
+    "Observer",
+    "Browser",
+    "Events",
+    "Singleton",
+    "Design",
+    "pattern"
+  ],
+  "author": "EggerdingSoftware",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxEgg/Observers/issues"
+  },
+  "homepage": "https://github.com/MaxEgg/Observers#readme",
+  "devDependencies": {
+    "tslint": "^5.12.1"
+  }
+}
