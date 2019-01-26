@@ -1,6 +1,6 @@
 {
   "name": "@eggerdingsoftware/observers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of singleton observers for browser events",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "Design",
     "pattern"
   ],
-  "author": "EggerdingSoftware",
+  "author": "MaxEgg",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MaxEgg/Observers/issues"

@@ -28,7 +28,7 @@ var ResizeObserver = /** @class */ (function () {
         this.listeners.filter(function (collectedListener) { return collectedListener !== listener; });
     };
     /**
-     * Start the resize event listener
+     * Start the resize event listener.
      */
     ResizeObserver.prototype.startListener = function () {
         window.addEventListener("resize", this.notify);
@@ -40,7 +40,7 @@ var ResizeObserver = /** @class */ (function () {
         window.removeEventListener("resize", this.notify);
     };
     /**
-     * Notify all listeners
+     * Notify all listeners.
      * @param event
      */
     ResizeObserver.prototype.notify = function (event) {

@@ -29,7 +29,7 @@ class ResizeObserver {
   }
 
   /**
-   * Start the resize event listener
+   * Start the resize event listener.
    */
   private startListener() {
     window.addEventListener("resize", this.notify);
@@ -43,7 +43,7 @@ class ResizeObserver {
   }
 
   /**
-   * Notify all listeners
+   * Notify all listeners.
    * @param event
    */
   private notify(event: UIEvent) {

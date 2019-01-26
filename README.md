@@ -2,13 +2,13 @@
 
 Collection of singleton observers.
 
-Currently in the collection is:
+### Currently in the collection present:
 
 - ScrollObserver Detect scroll on the window
 - ConnectionObserver Detect offline/online
 - ResizeObserver Detect resize of the window.
 
-###Usage:
+### Usage:
 
 Install using:
 

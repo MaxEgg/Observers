@@ -4,10 +4,12 @@
     "target": "es5",
     "module": "commonjs",
     "sourceMap": false,
-    "sourceRoot": "src",
     "baseUrl": "./src",
     "moduleResolution": "node",
-    "include": ["./src/**/*"],
-    "exclude": ["node_modules"]
-  }
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
 }
